@@ -323,12 +323,12 @@ button {
 }
 
 i.fas.fa-tag::before {
-  display: inline-block;
   content: "\f02b";
   position: absolute;
-  font-size: 140px;
+  font-size: 80px;
   color: lightgray;
-  right: 40px;
+  right: 10px;
+  top: 10px;
 }
 
 /* ELEMENTI NELL' ASIDE */
@@ -352,6 +352,7 @@ aside div {
     display: inline-block;
     width: 33.333%;
     margin-inline: -2px;
+    position: relative;
   }
 }
 aside div p:last-child {
